@@ -1,6 +1,5 @@
 {
 	"env": {
-		"amd": false,
 		"es2021": true,
 		"node": true
 	},
@@ -11,9 +10,7 @@
 	},
 	"parserOptions": {
 		"ecmaFeatures": {
-			"globalReturn": false,
-			"impliedStrict": true,
-			"jsx": false
+			"impliedStrict": true
 		},
 		"ecmaVersion": 12,
 		"sourceType": "module"

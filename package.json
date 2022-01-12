@@ -10,12 +10,12 @@
 	"name": "ocr-kata-test-double",
 	"devDependencies": {
 		"eslint": "^8.5.0",
+		"eslint-plugin-import": "^2.25.4",
 		"eslint-plugin-node": "^11.1.0"
 	},
 	"engines": {
 		"node": ">=17"
 	},
-
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/kmalinich/ocr-kata-test-double.git"
@@ -24,6 +24,6 @@
 		"lint": "eslint .",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"type": "commonjs",
+	"type": "module",
 	"version": "0.0.1"
 }
